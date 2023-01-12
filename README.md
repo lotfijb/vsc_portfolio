@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 - Node.js
-- npm
+- npm or yarn
 
 ### Installation
 
@@ -24,12 +24,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Running the Application
 
-```npm run dev``` or ```npm start```
+```npm run dev``` or ```npm start``` or ```yarn dev```
 
 This will start the development server and open the website in your default browser.
 
 ## Built With
 
+- [Vite](https://github.com/vitejs/vite) - A lightweight development build tool.
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [react-router](https://reacttraining.com/react-router/web/guides/quick-start) - A library for routing in React
 
