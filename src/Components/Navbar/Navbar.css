@@ -100,3 +100,46 @@ a:hover {
 .closed * {
   display: none;
 }
+@media only screen and (max-width: 600px) {
+  p {
+    font-weight: 700;
+  }
+  .container {
+    width: 100vw;
+  }
+  .sidebar {
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding-left: 10px;
+  }
+  nav {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border: none;
+  }
+  nav a {
+    width: 100vw;
+    text-align: center;
+  }
+  nav ul {
+    margin-top: 5px;
+  }
+  .closed {
+    height: 0px;
+    width: 100vw;
+  }
+  .portrait-container {
+    margin-left: auto;
+    margin-right: 10px;
+  }
+}
