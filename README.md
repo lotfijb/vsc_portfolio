@@ -42,8 +42,9 @@ This will start the development server and open the website in your default brow
 - Overview section 
 - Display of other visual design elements of visual studio code like the sidebar, editor ( content ) etc..
 
-## Screenshots
-To be uploaded soon
+| Screenshot 1 | Screenshot 2  | Screenshot 3 |
+| ------------|------------| ------------|
+| ![Screenshot 1](https://i.imgur.com/Y6URUqA.png) | ![Screenshot 2](https://i.imgur.com/4ASplDL.png) | ![Screenshot 3](https://i.imgur.com/I5BxJiD.png) |
 
 ## Support
 
