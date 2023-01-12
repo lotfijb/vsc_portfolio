@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Consolas, "Courier New", monospace;
+}
+.container {
+  position: relative;
+  background-color: black;
+  width: 300px;
+  display: flex;
+  z-index: 0;
+}
+.no-bg {
+  background-color: black;
+}
+.sidebar {
+  color: white;
+  width: 90px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+nav {
+  width: 210px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.536);
+  border-left: rgba(255, 255, 255, 0.279) solid 0.1px;
+  border-right: rgba(255, 255, 255, 0.279) solid 0.1px;
+  border-top: rgba(255, 255, 255, 0.279) solid 0.1px;
+}
+nav ul {
+  list-style: none; /* remove bullet points */
+  margin-top: 50px;
+}
+nav li {
+  display: block; /* display items vertically */
+}
+nav a {
+  text-decoration: none; /* remove underline from links */
+  color: white; /* set link color */
+  display: block;
+  width: 210px;
+  height: 40px;
+  text-align: left;
+  padding: 8px;
+  padding-left: 30px;
+  font-size: 1.1rem;
+  transition: 400ms ease;
+  letter-spacing: 2px;
+}
+
+nav a:link {
+  background-color: none;
+}
+nav a:focus,
+a:hover {
+  background-color: rgb(34, 34, 34);
+  font-size: 1.2rem;
+}
+
+.file-image {
+  width: 17px;
+  margin-right: 5px;
+}
+.side-image {
+  display: inline;
+  width: 40px;
+  aspect-ratio: 1;
+}
+.portrait {
+  border-radius: 50%;
+  transition: 200ms;
+}
+.portrait:hover {
+  width: 45px;
+}
+.portrait-container {
+  margin-top: auto;
+}
+
+.side-link {
+  background-color: transparent;
+  color: inherit;
+}
+.side-link:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.closed {
+  width: 1px;
+}
+.closed * {
+  display: none;
+}
