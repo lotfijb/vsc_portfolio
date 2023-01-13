@@ -53,3 +53,6 @@ If you have any questions or run into any issues while setting up or using the p
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Full story behind building this website
+[Read here](https://dev.to/lotfijb/portfolio-website-inspired-by-vs-code-103k)
