@@ -13,7 +13,6 @@ function App() {
   };
   return (
     <Router>
-      {/* <Topbar closed={closed} /> */}
       <Navbar closedHandle={handleFilesDisplay} closed={closed} />
       <Routes className="body">
         <Route exact path="/" element={<OverviewPage closed={closed} />} />
